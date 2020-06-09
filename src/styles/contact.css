@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .contact-main {
   background-color: rgb(232, 240, 232);
 }
@@ -50,4 +53,11 @@
 }
 .contact-form button:hover{
     background-color: green;
+}
+
+@media(max-width:750px){
+    .contact-section {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
