@@ -1,103 +1,9 @@
-/* * {
-  margin: 0px;
-  padding: 0px;
-}
-section.head {
-  width: 100vw;
-  height: 458px;
-  background-image: url(../media/Rectangle.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-section.head p {
-  position: absolute;
-  width: auto;
-  left: 162px;
-  top: 102px;
-  font-family: Eksell Display;
-  font-style: normal;
-  font-weight: 550;
-  font-size: 72px;
-  line-height: 86px;
-  color: #ffffff;
-}
-section.container {
-  margin: 50px auto;
-  width: 1080px;
-  background-color: white;
-}
-section.container .text {
-  font-family: Eksell Display;
-  font-style: normal;
-  font-weight: 550;
-  font-size: 48px;
-  line-height: 58px;
-  color: #2b2b2b;
-  margin-bottom: 10px;
-}
-.rooms {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.room {
-  width: 500px;
-  height: auto;
-  margin-top: 10px;
-  background-image: url(../media/rooms.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 458px;
-  margin-top: 60px;
-  
-}
-.roomInfo {
-  margin-top: 290px;
-  padding: 25px 50px;
-  background-color: white;
-  opacity: 0.9;
-}
-.name {
-  font-family: Cera Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 31px;
-  color: #2b2b2b;
-}
-.from {
-  font-family: Cera Pro;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 31px;
-  color: #2b2b2b;
-}
-.price {
-  color: #02ce77;
-  font-family: Cera Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 60px;
-  z-index: 10;
-}
-.night {
-  font-family: Cera Pro;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
-  color: #2b2b2b;
-} */
 * {
   margin: 0px;
   padding: 0px;
 }
 header {
-  height: 458px;
+  height:458px;
   background-image: url(../media/Rectangle.png);
   background-size: cover;
   background-position: center;
@@ -106,13 +12,17 @@ header {
 header p {
   position: absolute;
   left: 162px;
-  top: 102px;
+  top: 300px;
   font-family: Eksell Display;
   font-style: normal;
   font-weight: 550;
   font-size: 72px;
   line-height: 86px;
   color: #ffffff;
+}
+.container{
+  width: 80%;
+  margin: auto;
 }
 div.container h3.text {
   font-family: Eksell Display;
@@ -166,25 +76,4 @@ div.container .room .roomInfo {
   font-size: 24px;
   line-height: 30px;
   color: #2b2b2b;
-}
-@media only screen and (max-width: 767px) {
-  header {
-    height: 300px;
-  }
-  header p {
-    position: relative;
-    left: 0px;
-    text-align: center;
-    font-size: 38px;
-  }
-  div.container h3.text {
-    font-size: 25px;
-    text-align: center;
-  }
-  div.container .room {
-    margin-top: 5px;
-  }
-  div.container .room .roomInfo {
-    padding: 10px 30px;
-  }
 }
