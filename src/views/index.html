@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/svg" href="../media/travel.svg" />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="/src/styles/main.css"/>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -25,43 +26,22 @@
   </head>
   <body>
     <!-- Navbar starts -->
-    <nav class="navbar navbar-expand-lg navbar-info">
-      <div class="container">
-        <a class="navbar-brand" to="/" class="active">
-          <img src="../media/logo.png" alt="logo" class="img-fluid" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span
-            style="color: #02ce77;"
-            class="navbar-toggler-icon fa fa-bars fa-2x"
-          ></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active mr-2">
-              <a href="index.html" class="active nav-link" style="border-bottom: 4px solid #02ce77;">Home</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a href="Rooms.html" class="nav-link">Rooms & Rates</a>
-            </li>
-            <li class="nav-item">
-              <a href="services.html" class="nav-link">Services & Facilities</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact Us</a>
-            </li>
-          </ul>
+      <nav class="nav container">
+        <div class="nav-logo">
+          <img class="logo" src="/src/media/logo.png" alt="Tunz Logo" />
         </div>
-      </div>
-    </nav>
+        <ul class="nav-items">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="Rooms.html">Rooms and Rates</a></li>
+          <li><a class="nav-link" href="service.html">Services and Facilities</a></li>
+          <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
     <!-- Navbar end -->
 
     <!-- Hero start -->
@@ -384,62 +364,54 @@
     <!-- Stories end -->
 
     <!-- Footer start -->
-    <footer>
-      <div class="footer-wrapper">
-        <div class="footer-logo">
-          <div class="footer-image">
-            <img src="../media/logo.png" alt="logo" class="img-fluid" />
-            <p>enquiries@tunz.com</p>
-          </div>
-        
-          <div class="footer-text socials">
-            <a class="facebook" href=""><i class="fab fa-facebook"></i></a>
-            <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
-            <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
-            <a class="google-plus" href=""><i class="fab fa-google-plus-g"></i></a>
+    <footer class="footer-wrapper">
+      <div class="footer-logo">
+        <div class="footer-image">
+          <img src="/src/media/footer-logo.png" alt="Tunz Hotel Resort" />
+          <p>enquiries@tunz.com</p>
+        </div>
+        <div class="footer-text socials">
+          <a class="facebook" href=""><i class="fab fa-facebook"></i></a>
+          <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
+          <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
+          <a class="google-plus" href=""><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+      <div class="footer-details">
+        <div class="footer-info">
+          <h3>Navigation</h3>
+          <div class="footer-text navigation">
+            <p>About us</p>
+            <p>Rooms and rates</p>
+            <p>Features</p>
+            <p>FAQ</p>
           </div>
         </div>
-        <div class="footer-details">
-          <div class="footer-info">
-            <h3>Navigation</h3>
-            <div class="footer-text navigation">
-              <p>About us</p>
-              <p>Rooms and rates</p>
-              <p>Features</p>
-              <p>FAQ</p>
-            </div>
+        <div class="footer-info">
+          <h3>About</h3>
+          <div class="footer-text about">
+            <p>Terms and Conditions</p>
+            <p>Privacy and Policy</p>
+            <p>Vacancy</p>
+            <p>Our blog</p>
           </div>
-
-          <div class="footer-info">
-            <h3>About</h3>
-            <div class="footer-text about">
-              <p>Terms and Conditions</p>
-              <p>Privacy and Policy</p>
-              <p>Vacancy</p>
-              <p>Our blog</p>
+        </div>
+        <div class="footer-info">
+          <h3>Get the app</h3>
+          <div class="icon">
+            <div class="icon-image">
+              <img src="/src/media/google.png" alt="google play store logo" />
+              <span><ahref=""> <span class="get">GET IT ON </span> <br> <span class="apple">Google Play</span></ahref=></span>
             </div>
-          </div>
-
-          <div class="footer-info">
-            <h3>Get the app</h3>
-            <div class="icon">
-             
-              <div class="icon-image">
-                <img src="/src/media/google.png" alt="google play store logo" />
-                <span><ahref=""> <span class="get">GET IT ON </span> <br> <span class="apple">Google Play</span></ahref=></span>
-              </div>
-              <div class="icon-image">
-                <i class="fab fa-apple"></i> 
-                <span><a  href=""> <span class="get"> Download on the</span> <br> <span class="apple"> App Store</span></a></span>
-              </div>
-              
-               
+            <div class="icon-image">
+              <i class="fab fa-apple"></i> 
+              <span><a  href=""> <span class="get"> Download on the</span> <br> <span class="apple"> App Store</span></a></span>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Footer end -->
+  </footer>
+  <!-- Footer end -->
 
     <script src="/src/js/app.js"></script>
     <script
