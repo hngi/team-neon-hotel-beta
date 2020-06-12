@@ -1,3 +1,41 @@
+.headerContact_hero img {
+  width: 30%;
+  height: 30%;
+  display: block;
+}
+.fill_div {
+  height: 458px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31));
+  position: absolute;
+  z-index: 1;
+}
+  .headerContact_hero img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .contact-title {
+    z-index: 3;
+    width: 381px;
+    height: 86px;
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    vertical-align: top;
+    left: 166px;
+    top: 172px;
+    transition: all 0.2s ease;
+  }
+
+  .contact-title h2 {
+    color: #fff;
+    font-size: 62px;
+    text-align: left;
+    font-weight: 500;
+  }
+  .contact-title:hover h2 {
+    transform: translateY(-5px);
+  }
 body {
   margin: 0;
 }
@@ -87,6 +125,8 @@ textarea {
 .contact-form button:hover {
   background-color: green;
 }
+
+
 .map {
   max-width: 1136px;
   height: 400px;
@@ -99,23 +139,13 @@ textarea {
   max-width: 100%;
   height: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
 }
 .map:hover img {
   transform: scale(0.995);
 }
 
 @media screen and (min-width: 1440px) {
-  .map {
-    left: 10%;
-  }
+.map {
+  left: 10%;
 }
-
-@media (max-width: 750px) {
-  .contact-section {
-    flex-direction: column;
-    justify-content: center;
-  }
 }
