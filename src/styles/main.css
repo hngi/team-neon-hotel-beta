@@ -277,7 +277,7 @@ i {
 	.nav-items {
 		flex-direction: column;
 		position: absolute;
-		top: 100%;
+		top: 7%;
 		left: 0;
 		height: 90vh;
 		width: 100%;
