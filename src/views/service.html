@@ -36,15 +36,16 @@
     <title>FrontEnd BoilerPlate. DON'T FORGET TO EDIT LINE</title>
   </head>
   <body>
-      <nav>
+
+      <nav class="nav">
         <div class="nav-logo">
-          <img class="logo" src="/src/media/logo.png" alt="" />
+          <img class="logo" src="/src/media/logo.png" alt="Tunz Logo" />
         </div>
-        <ul class="nav-links">
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="Rooms.html">Rooms and Rates</a></li>
-          <li><a href="service.html">Services and Facilities</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+        <ul class="nav-items">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#rooms">Rooms and Rates</a></li>
+          <li><a class="nav-link" href="#services">Services and Facilities</a></li>
+          <li><a class="nav-link" href="#contact">Contact Us</a></li>
         </ul>
         <div class="burger">
           <span class="line1"></span>
@@ -52,9 +53,10 @@
           <span class="line3"></span>
         </div>
       </nav>
+
       <header>
         <h1>Services & facilities</h1>
-    </header>
+      </header>
 
     <!-- main -->
 
@@ -151,61 +153,60 @@
             </div>
         </div>
     </main>
-    <footer>
-      <div class="footer-wrapper">
-        <div class="footer-logo">
-          <div class="footer-image">
-            <img src="/src/media/logo.png" alt="" />
-            <p>enquiries@tunz.com</p>
-          </div>
-        
-          <div class="footer-text socials">
-            <a class="facebook" href=""><i class="fab fa-facebook"></i></a>
-            <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
-            <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
-            <a class="google-plus" href=""><i class="fab fa-google-plus-g"></i></a>
+    <footer class="footer-wrapper">
+      <div class="footer-logo">
+        <div class="footer-image">
+          <img src="/src/media/footer-logo.png" alt="Tunz Hotel Resort" />
+          <p>enquiries@tunz.com</p>
+        </div>
+      
+        <div class="footer-text socials">
+          <a class="facebook" href=""><i class="fab fa-facebook"></i></a>
+          <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
+          <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
+          <a class="google-plus" href=""><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+      <div class="footer-details">
+        <div class="footer-info">
+          <h3>Navigation</h3>
+          <div class="footer-text navigation">
+            <p>About us</p>
+            <p>Rooms and rates</p>
+            <p>Features</p>
+            <p>FAQ</p>
           </div>
         </div>
-        <div class="footer-details">
-          <div class="footer-info">
-            <h3>Navigation</h3>
-            <div class="footer-text navigation">
-              <p>About us</p>
-              <p>Rooms and rates</p>
-              <p>Features</p>
-              <p>FAQ</p>
-            </div>
-          </div>
 
-          <div class="footer-info">
-            <h3>About</h3>
-            <div class="footer-text about">
-              <p>Terms and Conditions</p>
-              <p>Privacy and Policy</p>
-              <p>Vacancy</p>
-              <p>Our blog</p>
-            </div>
+        <div class="footer-info">
+          <h3>About</h3>
+          <div class="footer-text about">
+            <p>Terms and Conditions</p>
+            <p>Privacy and Policy</p>
+            <p>Vacancy</p>
+            <p>Our blog</p>
           </div>
+        </div>
 
-          <div class="footer-info">
-            <h3>Get the app</h3>
-            <div class="icon">
+        <div class="footer-info">
+          <h3>Get the app</h3>
+          <div class="icon">
+           
+            <div class="icon-image">
+              <img src="/src/media/google.png" alt="google play store logo" />
+              <span><ahref=""> <span class="get">GET IT ON </span> <br> <span class="apple">Google Play</span></ahref=></span>
+            </div>
+            <div class="icon-image">
+              <i class="fab fa-apple"></i> 
+              <span><a  href=""> <span class="get"> Download on the</span> <br> <span class="apple"> App Store</span></a></span>
+            </div>
+            
              
-              <div class="icon-image">
-                <img src="/src/media/google.png" alt="google play store logo" />
-                <span><ahref=""> <span class="get">GET IT ON </span> <br> <span class="apple">Google Play</span></ahref=></span>
-              </div>
-              <div class="icon-image">
-                <i class="fab fa-apple"></i> 
-                <span><a  href=""> <span class="get"> Download on the</span> <br> <span class="apple"> App Store</span></a></span>
-              </div>
-              
-               
-            </div>
           </div>
         </div>
       </div>
-    </footer>
+    
+  </footer>
 
     <script src="/src/js/app.js"></script>
   </body>

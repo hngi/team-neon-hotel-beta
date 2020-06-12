@@ -114,13 +114,13 @@ i {
 
 .footer-wrapper {
 	min-height: 20vh;
-	margin: auto;
+	margin: 4rem auto 0;
 	color: white;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	position: relative;
-	padding: 5rem 3rem;
+	padding: 5rem;
 }
 .footer-logo {
 	flex-grow: 0.5rem;
@@ -143,7 +143,7 @@ i {
 .footer-details {
 	flex: 2 1 40rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-left: 2rem;
 }
 .footer-text {
