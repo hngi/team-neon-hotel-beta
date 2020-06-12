@@ -42,7 +42,7 @@ body {
 header {
   margin: 0;
   padding: 0;
-  height: 50vh;
+  height: 458px;
   /* background-color: #928; */
   position: relative;
   /* background-color: #920; */
@@ -51,7 +51,7 @@ header {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url("../media/Rectangle41.png");
+    url("../media/Rectangle\ 43.png");
   /* width: 102%; */
   /* left: -1em; */
   object-fit: cover;
@@ -61,7 +61,7 @@ header {
 
 header h1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 20%;
   transform: translate(-20%, -50%);
   font-size: 4.5rem;
@@ -69,7 +69,7 @@ header h1 {
   text-transform: capitalize;
 }
 .contact-main {
-  background-color: rgb(232, 240, 232);
+  background-color: rgb(247, 243, 243);
 }
 .contact-section,
 .contact-main h2 {
@@ -97,6 +97,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   font-weight: bold;
+  
 }
 .contact-form-div {
   flex-grow: 4;
@@ -112,6 +113,7 @@ textarea {
 .contact-form input {
   height: 1rem;
   padding: 0.5rem;
+ 
 }
 .contact-form button {
   height: 2rem;
@@ -126,14 +128,6 @@ textarea {
   background-color: green;
 }
 
-
-.map {
-  max-width: 1136px;
-  height: 400px;
-  position: absolute;
-  top: 1494px;
-  margin: 44px ;
-  left: 5%;
 }
 .map img {
   max-width: 100%;

@@ -1,66 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="Tunz hotel is a fast rising luxury hotel that caters for 
-      the optimum needs of our customers ranging from relaxation,Gym,Bar,Clubhouse
-       and a whole loads of recreational activities.We are here to always serve you.."
-    />
-    <meta name="robots" content="index,follow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/svg" href="../media/travel.svg" />
-
-    <!-- Google Fonts -->
-      <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../styles/styles.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="/src/styles/main.css" />
-    <title>FrontEnd BoilerPlate. DON'T FORGET TO EDIT LINE</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Home | Tunz Hotel</title>
   </head>
   <body>
-
-    
-    <header class="main-head">
-      <nav>
-        <div class="nav-logo">
-          <img class="logo" src="/src/media/logo.png" alt="" />
+    <!-- Navbar starts -->
+    <nav class="navbar navbar-expand-lg navbar-info">
+      <div class="container">
+        <a class="navbar-brand" to="/" class="active">
+          <img src="../media/logo.png" alt="logo" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span
+            style="color: #02ce77;"
+            class="navbar-toggler-icon fa fa-bars fa-2x"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mr-2">
+              <a href="index.html" class="active nav-link" style="border-bottom: 4px solid #02ce77;">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a href="Rooms.html" class="nav-link">Rooms & Rates</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services & Facilities</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav-links">
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#rooms">Rooms and Rates</a></li>
-          <li><a href="#services">Services and Facilities</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-        <div class="burger">
-          <span class="line1"></span>
-          <span class="line2"></span>
-          <span class="line3"></span>
-        </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+    <!-- Navbar end -->
 
+    <!-- Hero start -->
+    <div class="container-fluid hero">
+      <div class="row">
+        <div class="col-sm-12 text-left text-capitalize text-white">
+          <h2>we know how to</h2>
+          <h3>please you</h3>
+          <p class="mb-5">
+            The best place to experience and <br />
+            enjoy unforgettable nights.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <section class="form-wrapper bg-light p-4 mt-5">
+          <form class="m-2">
+            <div class="form-row">
+              <div class="col-md-2 col-sm-4 mb-2">
+                <label for="check in">Check in</label>
+                <input
+                  type="date"
+                  class="form-control form-control-lg"
+                  placeholder="Select date"
+                />
+              </div>
+              <div class="col-md-2 col-sm-4 mb-2">
+                <label for="check out">Check out</label>
+                <input
+                  type="date"
+                  class="form-control form-control-lg"
+                  placeholder="Select date"
+                />
+              </div>
+              <div class="col-md-2 col-sm-4 mb-2">
+                <label for="adult">Adult</label>
+                <select class="form-control form-control-lg">
+                  <option>Adult</option>
+                </select>
+              </div>
+              <div class="col-md-2 col-sm-4 mb-2">
+                <label for="children">Children</label>
+                <select class="form-control form-control-lg">
+                  <option>Children</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </div>
+              <div class="col-md-2 col-sm-4 mb-2">
+                <label for="rooms">Room(s)</label>
+                <select class="form-control form-control-lg">
+                  <option>Rooms(s)</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="col-md-2 col-sm-4">
+                <input
+                  type="submit"
+                  value="Book Now"
+                  class="btn btn-success btn-lg"
+                />
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <!-- Hero end -->
+
+    <!-- About Us start -->
+    <section class="bg-color p-5">
+      <div class="container-fluid mt-5 mb-2 about">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 about-details">
+            <h2 class="text-capitalize">about us</h2>
+            <div class="line"></div>
+            <p class="text-muted pt-3 pb-3">
+              Tunz hotel and resort was founded in 2002 by Tunz group company.
+              We are a 7-star hotel award winning hotel that provide the best
+              quality and affordable hotel comodation in Nigeria. Maximum
+              comfort and cutomer satisfaction is guaranteed in our services.
+            </p>
+            <button type="button" class="btn btn-link">Readmore</button>
+          </div>
+          <div class="col-lg-7 about-img"></div>
+        </div>
+
+        <div class="row hotel-services text-center text-uppercase mt-3">
+          <div class="col-md-2 col-sm-4 bg-white p-4 border-right">
+            <img
+              src="../media/Vector1.png"
+              alt="car-img"
+              class="img-fluid p-4"
+            />
+            <h6>free wifi</h6>
+          </div>
+          <div class="col-md-2 col-sm-4 bg-white p-4 border-right">
+            <img
+              src="../media/Vector.png"
+              alt="car-img"
+              class="img-fluid p-4"
+            />
+            <h6>car services</h6>
+          </div>
+          <div class="col-md-2 col-sm-4 bg-white p-4">
+            <img
+              src="../media/Vector1.png"
+              alt="car-img"
+              class="img-fluid p-4"
+            />
+            <h6>breakfast</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us end -->
+
+    <!-- Resort start -->
+    <section class="bg-resort-color">
+      <div class="container resort">
+        <h2 class="text-capitalize">explore our <br> resort</h2>
+        <div class="line mb-5"></div>
+  
+        <div class="explore">
+          <figure class="gallery__item gallery__item--1">
+            <img
+              src="../media/Rectangle 19.png"
+              alt="Gallery image 19"
+              class="gallery__img"
+            />
+            <div class="overlay-1 mr-2 mt-4 px-5 mx-1">
+              <h4>
+                extra <span class="text-success">20% off</span> on <br> online bookings
+              </h4>
+            </div>
+          </figure>
+  
+          <figure class="gallery__item gallery__item--2">
+            <img
+              src="../media/Rectangle 21.png"
+              alt="Gallery image 21"
+              class="gallery__img"
+            />
+            <div class="overlay-2 mr-2 mt-4 px-5 mx-1">
+              <div class="d-flex">
+                <h4 class="float-left">
+                amazing <br>views
+                </h4>
+                <p class="text-white px-5">
+                  Experience amazing and breath <br> taking views in and around <br> the hotel; from the entrance to your <br> hotel room, pool and walk ways.
+                </p>
+              </div>
+            </div>
+          </figure>
+  
+          <figure class="gallery__item gallery__item--3">
+            <img 
+              src="../media/Rectangle 28.png"
+              alt="Gallery image 28"
+              class="gallery__img"
+            />
+            <div class="overlay-3 mr-2 mt-4 px-5 mx-1">
+            <h4>
+              serene <br> environment
+            </h4>
+          </figure>
+  
+          <figure class="gallery__item gallery__item--4">
+            <img
+              src="../media/Rectangle 29.png"
+              alt="Gallery image 29"
+              class="gallery__img"
+            />
+            <div class="overlay-4 mr-2 mt-4 px-5 mx-1">
+            <h4>
+              maximum <br> comfort
+            </h4>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Resort end -->
+
+    <!-- Testimonials start -->
+    <section class="bg-color testimonials p-4">
+      <div class="container dotted-img mt-5 mb-5">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center text-capitalize">
+              what they <br />
+              say
+            </h2>
+            <div class="line mb-5"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 curve-img">
+            <img
+              src="../media/“.png"
+              alt="qoutes"
+              class="img-fluid mb-4 px-5"
+            />
+            <div class="testimonial-img float-right">
+              <img
+                src="../media/Ellipse 1.png"
+                alt="testimonials"
+                class="img-fluid"
+              />
+            </div>
+            <p class="px-5">
+              We had 3 night stay and was thrilled with every aspect of the
+              hotel, the staff are friendly, knowledgeable and helpful.
+            </p>
+            <div class="stars pl-4 mb-3 text-center">
+              <img src="../media/Star 1.png" alt="star" class="img-fluid" />
+              <img src="../media/Star 2.png" alt="star" class="img-fluid" />
+              <img src="../media/Star 3.png" alt="star" class="img-fluid" />
+              <img src="../media/Star 4.png" alt="star" class="img-fluid" />
+              <img src="../media/Star 5.png" alt="star" class="img-fluid" />
+            </div>
+            <p class="bold">Rebecah Kitson</p>
+            <img
+              src="../media/”.png"
+              alt="qoutes"
+              class="img-fluid float-right mr-5 px-5"
+            />
+          </div>
+
+          <div class="col-md-6 pl-lg-5 testimonials">
+            <img
+              src="../media/Ellipse 6.png"
+              alt=""
+              class="img-fluid Ellipse6"
+            />
+            <img
+              src="../media/Ellipse 3.png"
+              alt=""
+              class="img-fluid Ellipse3"
+            />
+            <img
+              src="../media/Ellipse 2.png"
+              alt=""
+              class="img-fluid Ellipse2"
+            />
+            <img
+              src="../media/Ellipse 7.png"
+              alt=""
+              class="img-fluid Ellipse7"
+            />
+            <img
+              src="../media/Ellipse 5.png"
+              alt=""
+              class="img-fluid Ellipse7"
+            />
+            <img
+              src="../media/Ellipse 4.png"
+              alt=""
+              class="img-fluid Ellipse4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials end -->
+
+    <!-- Stories start -->
+     <div class="container stories mt-5 px-4">
+      <div class="row">
+        <div class="col-md-5 pl-lg-5">
+          <h2 class="text-capitalize text-left mt-5">
+            read our <br />
+            stories
+          </h2>
+          <div class="line mb-5"></div>
+          <button class="btn btn-success btn-lg mb-4">Get Started</button>
+        </div>
+
+        <div class="col-md-7 pr-lg-5">
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="../media/Rectangle 14.png"
+                  class="img-fluid"
+                  alt="img-stories"
+                  style="
+                    width: 600px;
+                    height: 350px;
+                    object-fit: cover;
+                    object-position: center;
+                  "
+                />
+              </div>
+              <div class="col-md-8 p-3">
+                <div class="card-body">
+                  <h5 class="text-capitalize">
+                    home away, from <br />
+                    home
+                  </h5>
+                  <small class="text-muted text-capitalize">
+                    3, june 2020
+                  </small>
+                  <p class="card-text text-muted mt-3">
+                    Welcome to Tunz hotel and resort, a home away from home, a
+                    place where comfort is and customer satisfaction.
+                  </p>
+                  <p>
+                    <a href="#" class="readmore text-success">Readmore</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Stories end -->
+
+    <!-- Footer start -->
     <footer>
       <div class="footer-wrapper">
         <div class="footer-logo">
           <div class="footer-image">
-            <img src="/src/media/logo.png" alt="" />
+            <img src="../media/logo.png" alt="logo" class="img-fluid" />
             <p>enquiries@tunz.com</p>
           </div>
         
@@ -111,7 +439,23 @@
         </div>
       </div>
     </footer>
+    <!-- Footer end -->
 
     <script src="/src/js/app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
