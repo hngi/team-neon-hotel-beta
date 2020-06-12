@@ -72,7 +72,7 @@ main {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	grid-gap: 1.5rem;
 }
 
@@ -145,10 +145,6 @@ a:hover p {
 	left: -2%;
 	object-fit: cover;
 }
-/* .col1,
-.col2 {
-	margin-right: 1em;
-} */
 
 @media only screen and (max-width: 768px) {
 	header h1 {
