@@ -37,10 +37,10 @@
   a {
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 8rem;
   }
   li {
-    font-size: 1.5rem;
+    font-size: .5rem;
   }
   
   /* NAVBAR STYLING */
@@ -123,10 +123,11 @@
   .nav-links li a:hover:after {
     transform: scale(1);
   }
-  
+
   /* Footer */
   footer {
     background: #010f4e;
+    margin-top: 30px;
   }
   
   i {
@@ -312,7 +313,7 @@
   }
   .footer-wrapper{
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   
