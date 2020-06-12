@@ -1,17 +1,17 @@
-console.log("App is live")
+console.log('App is live');
 
-const nav = document.querySelector(".nav-links");
-const burger = document.querySelector(".burger");
-const links = nav.querySelectorAll("a");
+const nav = document.querySelector('.nav-items');
+const burger = document.querySelector('.burger');
+const links = nav.querySelectorAll('a');
 
-burger.addEventListener("click", () =>{
-    nav.classList.toggle("nav-open");
-    burger.classList.toggle("toggle");
+burger.addEventListener('click', () => {
+	nav.classList.toggle('nav-open');
+	burger.classList.toggle('toggle');
 });
 
-links.forEach(link =>{
-    link.addEventListener("click", () =>{
-        nav.classList.toggle('nav-open');
-        burger.classList.toggle("toggle");
-    });
+links.forEach((link) => {
+	link.addEventListener('click', () => {
+		nav.classList.toggle('nav-open');
+		burger.classList.toggle('toggle');
+	});
 });
