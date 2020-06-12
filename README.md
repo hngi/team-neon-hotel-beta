@@ -29,4 +29,4 @@ Any new scss file for styling that that you create has to be declared in the ent
 
 IF YOU ARE NOT COMFORTABLE WITH SCSS , YOU CAN USE CSS. THEY WORK THE SAME WAY
 
-Contact the subteam leads or @deji.ab on the slack channel if you have any issues
+Contact the subteam leads or [@deji.ab](adedejiabiola56@gmail.com) or on the slack channel if you have any issues
