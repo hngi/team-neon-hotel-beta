@@ -46,26 +46,3 @@ Push your changes:
 ```
 
 8. Open a pull request and push to the develop branch
-
-
-## HOW TO WORK WITH THE BOILER PLATE 
-
-This app uses webpack to bundle code and it is very important that you write your code in the appropriate folder so that the bundler can find the file and serve it.
-
-The only place you need to work on is in the src folder. There you have 
-
-1. `views` folder which will contain your html files
-2. `Styles` folder which will contain scss folder
-3. `Media` folder which will contain pictures
-4. `js` folder which will contain javascript code
-
-Any new scss file for styling that that you create has to be declared in the entry.scss file. The file is located inside the views folder and is the scss entry point for webpack. 
-For example, if you create a `nav.scss` file, you can declare it like this
-
-```sh
-@import './nav.scss';
-```
-
-> IF YOU ARE NOT COMFORTABLE WITH SCSS , YOU CAN USE CSS. THEY WORK THE SAME WAY.
-
-Contact the subteam leads or @deji.ab on the slack channel if you have any issues
