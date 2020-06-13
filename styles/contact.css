@@ -68,9 +68,11 @@ header h1 {
   color: #fff;
   text-transform: capitalize;
 }
-.contact-main {
-  background-color: rgb(247, 243, 243);
+
+contact-container {
+  display: flex;
 }
+
 .contact-section,
 .contact-main h2 {
   width: 80%;

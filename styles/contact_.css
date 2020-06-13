@@ -3,12 +3,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
-header {
+.header {
   margin: 0;
   padding: 0;
-  height: 50vh;
+  height: 458px;
   /* background-color: #928; */
   position: relative;
   /* background-color: #920; */
@@ -25,15 +24,93 @@ header {
   background-position: center center;
 }
 
-header h1 {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-20%, -50%);
-  font-size: 4.5rem;
-  color: #fff;
-  text-transform: capitalize;
+.header h1 {
+  padding-left: 130px;
+  padding-top: 200px;
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 72px;
+  line-height: 86px;
+  color: #ffffff;
 }
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 13rem;
+  flex-wrap: wrap;
+}
+
+section h2 {
+  font-family: 'Eksell Display';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 40px;
+  line-height: 58px;
+  padding: 30px 13rem;
+}
+
+
+.contact-details {
+  width: 300px;
+}
+
+.contact-details div {
+  margin-bottom: 30px;
+}
+
+.contact-details .fa {
+  color: #2C6EE8;
+  margin-bottom: 9px;
+}
+
+
+form {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Cera Pro';
+  padding-left: 20px;
+}
+
+form textarea {
+  margin-bottom: 25px;
+}
+
+form button {
+  background-color: #02CE77;
+  padding: 13px 40px;
+  color: white;
+  font-family: Cera Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+transition: 0.3s
+}
+
+form button:hover {
+  background-color: rgb(37, 185, 121);
+}
+
+
 @media screen and (max-width: 1024px) {
   .headerContact_hero {
     height: 458px;

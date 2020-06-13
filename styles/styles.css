@@ -90,7 +90,7 @@ nav .nav-link {
   background-color: var(--black-color);
   height: 5px;
   width: 40px;
-  margin-left: 120px;
+  margin-left: 90px;
   border-radius: 28px !important;
 }
 
@@ -107,11 +107,11 @@ nav .nav-link {
 
 .about-details h2,
 .about-details p {
-  padding-left: 120px;
+  padding-left: 90px;
 }
 
 .about-details .btn-link {
-  margin-left: 110px;
+  margin-left: 80px;
   color: var(--green-color) !important;
   font-weight: 800;
 }
@@ -151,7 +151,7 @@ nav .nav-link {
   background-color: #2b2b2b;
   height: 5px;
   width: 40px;
-  margin-left: -2px;
+  margin-left: -16px;
   border-radius: 28px !important;
 }
 
@@ -168,8 +168,8 @@ html {
 }
 
 .container {
-  width: 60%;
-  margin: 2rem auto;
+  width: 100%;
+  margin: 1rem auto;
 }
 
 .resort h2 {
@@ -190,6 +190,9 @@ html {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
+  margin: -2rem;
+  width: 1200px;
+  max-width: 100%;
 }
 
 .gallery__img {
@@ -486,12 +489,13 @@ html {
   background-color: var(--black-color);
   height: 5px;
   width: 40px;
-  margin-left: -2px;
+  margin-left: -16px;
   border-radius: 28px !important;
 }
 
 .stories h2 {
   font-size: 45px;
+  margin-left: -18px;
   color: var(--black-color);
 }
 
@@ -499,6 +503,7 @@ html {
   background: var(--green-color);
   border-radius: 0;
   border: 1px solid var(--white-color);
+  margin-left: -18px;
 }
 
 .stories p {
@@ -509,3 +514,4 @@ html {
   color: var(--green-color) !important;
 }
 /* Stories end */
+
