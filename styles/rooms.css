@@ -1,31 +1,25 @@
+
 * {
   margin: 0px;
   padding: 0px;
 }
-.header {
-  height:458px;
+div.header {
+  height: 458px;
   background-image: url(../media/Rectangle.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.header p {
+div.header p {
   position: absolute;
   left: 162px;
-  top: 300px;
+  top: 270px;
   font-family: Eksell Display;
   font-style: normal;
   font-weight: 550;
   font-size: 72px;
   line-height: 86px;
   color: #ffffff;
-}
-
-/* header */
-
-.container{
-  width: 80%;
-  margin: auto;
 }
 div.container h3.text {
   font-family: Eksell Display;
@@ -44,7 +38,7 @@ div.container .room {
   height: 458px;
 }
 div.container .room .roomInfo {
-  padding: 10px 50px;
+  padding: 10px 10px 10px 40px;
   background-color: white;
   opacity: 0.9;
 }
@@ -79,4 +73,26 @@ div.container .room .roomInfo {
   font-size: 24px;
   line-height: 30px;
   color: #2b2b2b;
+}
+@media only screen and (max-width: 767px) {
+  div.header {
+    height: 300px;
+  }
+  div.header p {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    text-align: center;
+    font-size: 38px;
+  }
+  div.container h3.text {
+    font-size: 25px;
+    text-align: center;
+  }
+  div.container .room {
+    margin-top: 5px;
+  }
+  div.container .room .roomInfo {
+    padding: 10px 30px;
+  }
 }
